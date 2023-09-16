@@ -1,0 +1,46 @@
+/* subrayado de titulo.*/
+.subrayadoTitulo{text-decoration: underline;}
+
+/* Formato subtitulos categoria 1. ( Ingredientes - Relleno) */
+.subCat1{
+    text-decoration: underline;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+/* Formato subtitulos categoria 2. (Masa clasica- Relleno) */
+.subCat2{
+    
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+}
+
+
+/* Alineacion de texto centrado. */
+.alineacionCentrado{text-align: center;}
+
+/* Aliniacion de texto derecho. */
+.alineacionIzq{text-align: left;}
+
+/* Aliniacion de texto justificado. */
+.alineacionJustificado{text-align: justify;}
+
+
+/* color de fondo de la pagina */
+body {background-color: beige ;}
+
+/* Formato de imagenes. */
+img.tamanoMedio{
+    width: 400px;
+    height: 300px;
+    
+}
+
+img.tamanoGrande{
+    width: 800px;
+    height: 500px;
+}
+
+
+

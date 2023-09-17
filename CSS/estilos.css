@@ -1,10 +1,18 @@
+
+header { background-color: rgb(141, 64, 64);}
+
+section {border: 5px solid black;padding: 1cm; }
+
+
+
+
 /* subrayado de titulo.*/
 .subrayadoTitulo{text-decoration: underline;}
 
 /* Formato subtitulos categoria 1. ( Ingredientes - Relleno) */
 .subCat1{
     text-decoration: underline;
-    font-size: medium;
+    font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
 }
@@ -42,5 +50,40 @@ img.tamanoGrande{
     height: 500px;
 }
 
+img.iconos{
+    width: 50px;
+    height: 50px;
 
+}
 
+.container-boton{
+    background-color: #41923a;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 25px;
+    transition: ease 0.3s;
+    animation: efectoBoton 1.2s infinite;
+}
+
+.container-boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.boton{
+    width: 80px;
+    transition: ease 1s;
+}
+
+/* efecto de sombreado en el boton flotante */
+@keyframes efectoBoton{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}

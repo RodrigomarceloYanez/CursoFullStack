@@ -1,11 +1,38 @@
 
-header { background-color: rgb(141, 64, 64);}
+header { 
+    background-color: rgb(150, 100, 100);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2cm 2cm;
+    flex-wrap: wrap;
+   
+}
 
+.titulo h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin: 0;
+
+}
 section {border: 5px solid black;padding: 1cm; }
 
+footer{
+
+    background-color: rgb(150, 103, 100);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2cm 2cm;
+    flex-wrap: wrap;
+}
 
 
+.infoProgramador{
+    border: 2px solid black;  
+    padding: 0.5cm 1cm;  
 
+}
 /* subrayado de titulo.*/
 .subrayadoTitulo{text-decoration: underline;}
 

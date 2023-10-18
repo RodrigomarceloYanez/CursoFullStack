@@ -20,7 +20,53 @@ a:hover{
     
 }
 
+/* Estilos para pantallas grandes (desktop) */
+@media (min-width: 1024px) {
+    header {
+      padding: 30px;
+    }
+    footer{
+      padding: 30px;  
+    }
+    /* hace desaparecer la imagen en modo escritorio */
+    .imagenSmartphone{
+        display:none;
+    }
+}
 
+/* Estilos para pantallas medianas (tabletas) */
+@media (max-width: 1023px) and (min-width: 768px) {
+    header {
+      padding: 20px;
+    }
+    footer{
+        padding: 30px;  
+    }
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 767px) {
+    header {
+      padding: 10px;
+    }
+    footer{
+        padding: 30px;  
+    }
+    /* hace desaparecer la imagen del escritoriio en modo telefono */
+    .imagenEscritorio{
+        display: none;
+       
+    }
+}
+
+.imagenEscritorio img{
+    height: 40rem;
+    
+}
+.imagenSmartphone img{
+    height: 10rem;
+    
+}
 header { 
     background-color: rgb(150, 100, 100);
     display: flex;
@@ -33,7 +79,7 @@ header {
 
 .titulo h1{
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 5em;
+    font-size: 3em;
     margin: 0;
 
 }
@@ -90,12 +136,6 @@ footer{
 /* color de fondo de la pagina */
 body {background-color: beige ;}
 
-/* Formato de imagenes. */
-img.empanadas{
-    width: 30%;
-    height: auto; 
-    
-}
 
 
 img.iconos{
@@ -109,7 +149,7 @@ img.iconos:hover{
     transform: scale(1.1);
     transition: 0.3s;
 }
-
+/* boton whatsapp */
 .container-boton{
     background-color: #41923a;
     border: 1px solid #fff;

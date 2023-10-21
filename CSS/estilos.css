@@ -16,7 +16,7 @@ a:active{
 }
 
 a:hover{
-    color: blue;
+    color:aliceblue;
     
 }
 
@@ -60,7 +60,7 @@ a:hover{
 }
 
 .imagenEscritorio img{
-    height: 40rem;
+    height: 30rem;
     
 }
 .imagenSmartphone img{
@@ -163,6 +163,22 @@ img.iconos:hover{
     animation: efectoBoton 1.2s infinite;
 }
 
+/* formato de imagebnes de las Card´s */
+.card-img-top{
+
+    width: 100%;
+    height: 25em;
+}
+/* formato boton link de las Card´s */
+.botonCard{
+   background-color: #fff;
+   border: none;
+
+}
+
+.card-body{
+    height: 20em;
+}
 .container-boton:hover{
     transform: scale(1.3);
     transition: 0.3s;

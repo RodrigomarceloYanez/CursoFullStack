@@ -6,6 +6,8 @@
     <meta name="descrition" content="Recetas Tradicionales">
     <meta name="keywords" content="empanadas, tradicion,receta">
     <meta name="author" content="Rodrigo Yañez">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
     <title>Potrero Digital</title>
     <link rel="stylesheet" href="./CSS/estilos.css">
 </head>
@@ -95,18 +97,64 @@
     </div>
     
     <br>
-    <p>Y si aun te quedas dudas de como realizar las empanadas, mira estoas cuatro recetas,y además te envitamos a ver el siguiente video:</p>
-    
-    <!-- Maquetado Nav -->
-    <nav>
-        <ul>
-            <li><a href="https://www.recepedia.com/es-ar/recetas/empanadas/240708-empanada-tucumana-receta-original-completa/" target="_blank">Receta 1</a></li>
-            <li><a href="https://cocinerosargentinos.com/masas-saladas/empanadas-tucumanas" target="_blank">Receta 2</a></li>
-            <li><a href="https://cookpad.com/ar/recetas/728430-empanadas-tucumanas" target="_blank">Receta 3</a></li>
-            <li><a href="https://infoagro.com.ar/receta-original-de-la-empanada-tucumana/" target="_blank">Receta 4</a></li>
-        </ul>
-    </nav>
 
+    
+    <!-- implementacion de las Card´s -->
+    <div class="container-fluid"></div>
+        <p>Aca puedes var mas recetas de empanadas:</p>
+        <br>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="./Imagenes/Card_1.png" class="card-img-top" alt="Imagen 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Empanada Tucumana: Receta original completa</h5>
+                        <p class="card-text">Que fruta noble la empanada, y si de empanadas clásicas e increíblemente riquísimas hablamos, las Tucumanas son de las mejores de nuestro país (junto a las Salteñas, por supuesto).
+
+                            Por eso hoy, en Recepedia, te vamos a mostrar en un muy fácil paso a paso la receta para preparar unas TREMENDAS empanadas Tucumanas, bien originales y clásicas. </p>
+                        <a href="https://www.recepedia.com/es-ar/recetas/empanadas/240708-empanada-tucumana-receta-original-completa/" target="_blank"class="btn btn-primary botonCard">Ir pagina</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="./Imagenes/Card_2.png" class="card-img-top" alt="Imagen 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Masas Saladas
+                            Empanadas tucumanas</h5>
+                        <p class="card-text">PARA LA MASA: Hacer una corona de harina, agregar la grasa y unir con 300 cc de caldo donde hirvió el matambre, unir bien hasta conseguir una masa blanda, cortar pequeños trozos para realizar bollitos, luego estirar la masa con palo de amasar para realizar los discos.
+
+                            Rellenar los discos con la pasta, cerrar y hacer trece repulgues, colocarlas en la asadera para horno. Cocinar en horno de barro 15 minutos, o en otros 20.</p>
+                        <a href="https://cocinerosargentinos.com/masas-saladas/empanadas-tucumanas" target="_blank" class="btn btn-primary botonCard">Ir pagina</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="./Imagenes/Card_3.PNG" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Empanadas tucumanas</h5>
+                        <p class="card-text">A mi gusto, estas empanadas son las más sabrosas, ya que la carne cortada a cuchillo conserva todo su sabor. Además, si las hacemos con masa casera...no quedan palabras para agregar. De igual manera, en Tucumán, tiene un sabor distinto. Su tamaño es un poco más chica que las tradicionales y según ellos, deben llevar 13 repulgues. Yo las hago como puedo, con 12, 13 o 14 repulgues, nadie los cuenta! todos las disfrutan!</p>
+                        <a href="https://cookpad.com/ar/recetas/728430-empanadas-tucumanas" target="_blank" class="btn btn-primary botonCard">Ir pagina</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <img src="./Imagenes/Card_4.png" class="card-img-top" alt="Imagen 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Receta original de la empanada tucumana</h5>
+                        <p class="card-text">Estas tradicionales empanadas del norte argentino, tienen la característica de ser bastante jugosas, con un sabor muy particular por sus ingredientes. La masa casera se elabora de manera muy sencilla, con harina de trigo, agua, sal. El relleno es elaborado con carne vacuna cortada a cuchillo, a veces se utiliza el matambre, lo que le da un sabor muy particular.</p>
+                        <a href="https://infoagro.com.ar/receta-original-de-la-empanada-tucumana/" target="_blank" class="btn btn-primary botonCard">Ir pagina</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <br><br>
+    <p>Y además te envitamos a ver el siguiente video:</p>
     <!--inserción de video por iframe -->
     <iframe width="30%" height="" src="https://www.youtube.com/embed/DCiSWHbT5V8?si=-B1dI-v1WGooi5mD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <br>
@@ -115,7 +163,7 @@
     <audio src="./Audios/Atahualpa Yupanqui - Luna Tucumana (1957).mp3"controls></audio>
     <br>
     <p>Y si aún te quedaste con ganas de disfrutar mas empanadas tradicionales, podes ir a Famaillá, cuna de la empanada nacional. Desde 1979 de realiza la fiesta nacional de la empanada. A continuacion te dejamos la ubicacion de la ciudad de Famaillá:</p>
-    <br>
+    <br><br>
     
     </section>
 
@@ -123,7 +171,7 @@
         
         <div class="mapa">
             <!-- inserción de mapa -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6904.416884352142!2d-65.39956616291869!3d-27.05020237105971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9422495f856e7667%3A0x5db3a97c9858f934!2zRmFtYWlsbMOhLCBUdWN1bcOhbg!5e0!3m2!1ses-419!2sar!4v1693702756156!5m2!1ses-419!2sar" width="100%" height="30%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6904.416884352142!2d-65.39956616291869!3d-27.05020237105971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9422495f856e7667%3A0x5db3a97c9858f934!2zRmFtYWlsbMOhLCBUdWN1bcOhbg!5e0!3m2!1ses-419!2sar!4v1693702756156!5m2!1ses-419!2sar" width="100%" height="40%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         </div>
         
@@ -161,6 +209,6 @@
     </div>
 
     
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

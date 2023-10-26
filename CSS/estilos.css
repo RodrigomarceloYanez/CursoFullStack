@@ -108,20 +108,20 @@ footer{
 .subrayadoTitulo{text-decoration: underline;}
 
 /* Formato subtitulos categoria 1. ( Ingredientes - Relleno) */
-.subCat1{
+/* h3{
     text-decoration: underline;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
 }
 /* Formato subtitulos categoria 2. (Masa clasica- Relleno) */
-.subCat2{
+/* h4{
     
     font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: blueviolet;
-}
-
+} */
+ */
 
 /* Alineacion de texto centrado. */
 .alineacionCentrado{text-align: center;}
